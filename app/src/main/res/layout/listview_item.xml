@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Este layout contiene la apariencia de cada item del listview de citas médicas -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvl_doctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText" />
+
+    <TextView
+        android:id="@+id/tvl_lugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorText" />
+
+    <TextView
+        android:id="@+id/tvl_direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText" />
+
+    <TextView
+        android:id="@+id/tvl_tipo_cita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText" />
+
+    <TextView
+        android:id="@+id/tvl_consultorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText" />
+
+    <TextView
+        android:id="@+id/tvl_fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText" />
+
+    <TextView
+        android:id="@+id/tvl_hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText" />
+</LinearLayout>

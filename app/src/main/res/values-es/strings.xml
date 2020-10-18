@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Medical Center Appointment</string>
+    <string name="prompt_username">Nombre de Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar Sesión</string>
+    <string name="action_sign_in_short">Iniciar Sesión</string>
+    <string name="error_invalid_password">Esta contraseña es muy corta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="action_signup">Registrarse</string>
+    <string name="error_incorrect_credentials">Usuario o Contraseña incorrecta</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="available_appointments">Citas Disponibles</string>
+    <string name="title_sign_up">Registro de Usuario</string>
+    <string name="name">Nombre</string>
+    <string name="surname">Apellido</string>
+    <string name="email">Correo</string>
+    <string name="create_account">Registrarse</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="type_appointment">Tipo de cita</string>
+    <string name="office">Consultorio</string>
+    <string name="title_record_appointments">Registro de Citas</string>
+    <string name="record_appointment">Registrar Cita</string>
+    <string name="schedule_appointment">Agendar Cita</string>
+    <string name="place">Lugar</string>
+    <string name="date">Fecha</string>
+    <string name="hour">Hora</string>
+    <string name="confirm_log_out">¿Deseas cerrar sesión?</string>
+    <string name="save_success">Los datos se guardaron exitosamente</string>
+    <string name="confirm_exit">¿Deseas salir de la aplicación?</string>
+    <string name="watch_scheduled_appointments">Consultar citas agendadas</string>
+    <string name="confirm_schedule">¿Estás seguro que deseas agendar esta cita?</string>
+    <string name="watch_available_appointments">Consultar citas disponibles</string>
+    <string name="requested_appointments">Citas Pedidas</string>
+    <string name="search_info">Buscar por doctor o lugar</string>
+    <string name="scheduled_appointments">Citas Agendadas</string>
+    <string name="specialty">Medicina General</string>
+</resources>

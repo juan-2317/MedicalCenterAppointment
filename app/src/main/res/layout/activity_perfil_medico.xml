@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_aplicacion"
+    android:orientation="vertical"
+    tools:context=".PerfilMedicoActivity">
+
+    <!-- Incluimos el layout llamado tool_bar.xml para poder personalizar la barra de herramientas superior
+          con botones -->
+    <include
+        android:id="@+id/toolbar_doctor"
+        layout="@layout/tool_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:text="@string/title_record_appointments"
+            android:textColor="@color/colorText"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/doctorSession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/welcome"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/place"
+            android:textColor="@color/colorText" />
+
+        <Spinner
+            android:id="@+id/list_places"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_appointment"
+            android:textColor="@color/colorText" />
+
+        <Spinner
+            android:id="@+id/list_type_appointments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="246dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/office"
+            android:textColor="@color/colorText" />
+
+        <Spinner
+            android:id="@+id/list_offices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/etFecha"
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:ems="10"
+                android:hint="@string/date"
+                android:inputType="date"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorTextHint" />
+
+            <EditText
+                android:id="@+id/etHora"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:hint="@string/hour"
+                android:inputType="time"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorTextHint" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_create_appointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:text="@string/schedule_appointment" />
+    </LinearLayout>
+
+
+</LinearLayout>

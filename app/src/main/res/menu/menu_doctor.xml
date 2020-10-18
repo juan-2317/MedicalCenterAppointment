@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Los siguientes item aparecerán en el menú desplegable superior del activity perfil médico -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PerfilDoctorActivity">
+
+    <item
+        android:id="@+id/ver_citas_registradas"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="@string/watch_available_appointments"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/salir_doctor"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+</menu>

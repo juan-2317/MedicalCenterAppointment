@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Medical Center Appointment</string>
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_credentials">These credentials are incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="action_signup">Sign Up</string>
+    <string name="confirm_exit">Do you want to exit the application?</string>
+    <string name="welcome">Welcome</string>
+    <string name="available_appointments">Appointments available</string>
+    <string name="title_sign_up">User Sign Up</string>
+    <string name="name">First Name</string>
+    <string name="surname">Surname</string>
+    <string name="email">Email</string>
+    <string name="create_account">Create An Account</string>
+    <string name="logout">Log Out</string>
+    <string name="type_appointment">Type of Appointment</string>
+    <string name="office">Doctor\'s Office</string>
+    <string name="title_record_appointments">Record of Appointments</string>
+    <string name="record_appointment">Record Appointment</string>
+    <string name="schedule_appointment">Schedule Appointment</string>
+    <string name="place">Place</string>
+    <string name="date">Date</string>
+    <string name="hour">Hour</string>
+    <string name="confirm_log_out">Do you want to log out?</string>
+    <string name="save_success">The data was save correctly</string>
+    <string name="watch_scheduled_appointments">Watch Scheduled Appointments</string>
+    <string name="confirm_schedule">Are you sure you want to schedule this appointment?</string>
+    <string name="watch_available_appointments">Watch Available Appointments</string>
+    <string name="requested_appointments">Requested Appointments</string>
+    <string name="search_info">Search by doctor or place</string>
+    <string name="scheduled_appointments">Scheduled Appointments</string>
+    <string name="specialty">General Medicine</string>
+</resources>
